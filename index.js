@@ -89,6 +89,7 @@ const fi = (function() {
       }
       else return Array.from(new Set(array));
     },
+    // ^^^^^^     The most complicated one :(   ^^^^^^
 
     keys:  function(object) {
       return Object.keys(object);
